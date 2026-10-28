@@ -1,0 +1,49 @@
+{
+    "students": [
+        {
+            "name": "adam",
+            "age": 20 ,
+            "sexe": "male",
+            "email" : "adam@example.com",
+            "password": "adam123"
+        },
+        {
+            "name": "hined",
+            "age": 22 ,
+            "sexe": "female",
+            "email" : "hind@example.com",
+            "password": "ev3w"
+        },
+        {
+            "name": "ilyass" ,
+            "age":15 ,
+            "sexe":"male",
+            "email":"ilyass@example.com",
+            "password":"was4c"
+        },
+        {
+            "name": "sara",
+            "age": 20,
+            "sexe": "female",
+            "email": "sara@example.com",
+            "password": "sara123"
+        },
+        {
+            "name":"alae",
+            "age": 25,
+            "sexe": "female",
+            "email": "alae@example.com",
+            "password": "alae123"
+        },
+        {
+            "name": "youssef",
+            "age": 24,
+            "sexe":"male",
+            "email":"youssef@example.com",
+            "password":"qvrkd"
+        }
+
+
+
+    ]
+}

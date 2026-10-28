@@ -3,20 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/style.css">
     {% if title %}
-    <title>{{ title }}</title>
+    <title>student manager</title>
     {% endif %}
 </head>
 <body>
-    {% for lesson in lessons %}
-    <h1>{{ lesson.title }}</h1>
-    <p>in : {{ lesson.course }}</p>
-    <h5>by: {{ lesson.professor }}</h5>
+   <h1> Welcome to the home page</h1>
+  <form>
+      <label> Nom: </label>
+        <input type="text" name=" name">
+        <br></br>
+      <label> Email:  </label>
+        <input type="email" name="email">
+        <br></br>
+      <label>password: </label>
+        <input type="password" name="password">
+        <br></br>
+      <button type="submit">envoyer</button>
+      <button type="reset">effacer</button>
+
+  </form>
+  <h3> Listes des etudiants</h3>
+  <ul>
+      <li>mahamed</li>
+      <li>ali</li>
+      <li>fatima</li>
+      <li>hind</li>
+      <li>Adam</li>
+      <li>ilyass</li>
+      <li>ahmed</li>
+    </ul>
     
 
 
 
-    {% endfor %}
-  <h1> Home page</h1>  
+    
 </body>
 </html>
